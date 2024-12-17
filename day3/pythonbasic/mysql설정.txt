@@ -1,0 +1,20 @@
+c:\> mysql -u root -p mysql;
+
+mysql> SHOW DATABASES;
+
+mysql> CREATE DATABASE sample_db;
+
+mysql> SHOW DATABASES;
+
+mysql> use sample_db;
+
+mysql> CREATE USER 'sample_user'@'localhost' IDENTIFIED BY '1234';
+
+mysql> GRANT ALL PRIVILEGES ON sample_db.* TO  'sample_user'@'localhost';
+
+mysql> FLUSH PRIVILEGES;
+
+mysql 직접 하거나
+프롬프트 창에서 18sql.sql 명령어 직접 넣어서 하기
+
+18
