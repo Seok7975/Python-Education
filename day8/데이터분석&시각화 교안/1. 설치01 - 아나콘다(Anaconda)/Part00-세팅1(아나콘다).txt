@@ -1,0 +1,57 @@
+﻿아나콘다 설치 및 환경설정
+URL : https://www.anaconda.com/
+  
+
+
+
+다운로드 후 기본설정으로 설치하면 됩니다. 
+Register Anaconda3 as my default Python 3.8 부분이 디폴트로 체크되어 있는데, 기존에 설치된 파이썬은 그대로 유지되고, 아나콘다 내부에서 사용하는 파이썬은 3.8로 설치됩니다. 
+단, 설치경로만 Developkits하위로 지정합니다. 
+
+
+  
+  
+
+________________
+
+
+아나콘다 네비게이터
+설치가 완료되었다면 아나콘다 네비게이터를 실행해봅니다. 
+만약 업데이트 공지가 뜬다면 Yes를 눌러서 업데이트를 진행합니다. 
+  
+
+
+
+  
+
+
+
+업데이트가 완료되면 Launch Navigator를 클릭합니다. 
+  
+
+
+
+________________
+
+
+아나콘다 네비게이터가 실행된 화면입니다. 여기서 우리는 데이터 분석 및 시각화 수업을 위해 Spyer IDE를 사용할 것입니다. 
+  
+
+
+
+버전확인
+버전을 확인하기 위해 Anaconda Prompt를 실행합니다. 
+  
+
+
+
+그 외 버전을 확인하는 명령어는 다음과 같습니다. 
+
+
+	conda -V  ⇒ Anaconda 버전 확인
+conda --version  ⇒ Anaconda 버전을 확인
+python -V  ⇒ Python 버전을 확인
+python --version  ⇒ Python 버전을 확인
+conda list anaconda$  ⇒  Anaconda 버전을 확인
+conda list  ⇒ Anaconda 및 Python 버전을 모두 확인
+conda info  ⇒ Anaconda 및 Python 버전을 확인합니다
